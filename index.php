@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="dist/all.css">
 
     <title>philippwaldhauer.de</title>
@@ -13,7 +13,7 @@
 
 <?php require('lib.php') ?>
 <?php $data = require('data.php') ?>
-<?php $sliders = array(); ?>
+<?php $sliders = []; ?>
 
 <div class="header">
 
@@ -32,9 +32,13 @@
 
     <div class="intro">
         <p>Hallo, ich bin Philipp! Aktuell arbeite ich als Softwareentwickler bei <a href="http://nerdlichter.com">Nerdlichter</a>
-            in Hamburg. Auf dieser Seite möchte ich chronologisch alles sammeln, was ich so mache. Angefangen bei kleineren Blogeinträgen bis hin zu größeren Projekten.</p>
+            in Hamburg. Auf dieser Seite möchte ich chronologisch alles sammeln, was ich so mache. Angefangen bei
+            kleineren Blogeinträgen bis hin zu größeren Projekten.</p>
 
-        <p>Mehr Informationen zu mir gibt's in <a href="https://knuspermagier.de">meinem Blog</a>, empfehlenswerte Links teile ich auf <a href="http://supermagier.de">supermagier.de</a> und mein <a href="http://github.com/pwaldhauer">GitHub-Profil</a> ist vielleicht auch interessant. Noch Fragen offen? <a href="mailto:ich@philippwaldhauer.de">Schick mir eine E-Mail</a>!</p>
+        <p>Mehr Informationen zu mir gibt's in <a href="https://knuspermagier.de">meinem Blog</a>, empfehlenswerte Links
+            teile ich auf <a href="http://supermagier.de">supermagier.de</a> und mein <a
+                href="http://github.com/pwaldhauer">GitHub-Profil</a> ist vielleicht auch interessant. Noch Fragen
+            offen? <a href="mailto:ich@philippwaldhauer.de">Schick mir eine E-Mail</a>!</p>
 
     </div>
 
@@ -80,7 +84,7 @@
                     </div>
                 <?php elseif ($item['type'] === 'big'): ?>
                     <?php $id = slug(uniqid());
-                    $sliders[$id] = array('paginate' => (count($item['image']) > 1)) ?>
+                    $sliders[$id] = ['paginate' => (count($item['image']) > 1)] ?>
                     <div class="year__box box__big" style="background-color: <?= $item['dark_color'] ?>">
                         <div class="big__images swiper-container big__images__<?= $id ?>"
                              style="background-color: <?= $item['light_color'] ?>">
@@ -152,10 +156,13 @@
     _gaq.push(['_gat._anonymizeIp']);
 
 
-    (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    (function () {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
         ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
     })();
 
 </script>
