@@ -18,7 +18,7 @@ return array(
             'title'       => 'uswief',
             'link'        => 'http://uswief.de',
             'tags'        => array('Podcast'),
-            'description' => '“Und schon wieder ist es Freitag ist ein Podcast”, in dem <a href="http://florianletsch.de">Flo</a> und ich über alles Reden, was uns interessiert. Aktuell erscheint er an jedem zweiten Freitag.',
+            'description' => '„Und schon wieder ist es Freitag“ ist ein Podcast, in dem <a href="http://florianletsch.de">Flo</a> und ich über alles Reden, was uns interessiert. Aktuell erscheint er an jedem zweiten Freitag.',
         ),
         array(
             'type'        => 'small',
