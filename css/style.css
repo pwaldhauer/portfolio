@@ -24,8 +24,7 @@ a:hover {
 }
 
 .header {
-    background: url(http://knuspermagier.de/wp-content/uploads/daiquiri/bcn/images/IMG_5453_fitting.jpg);
-    /*background: url('img/ich.jpg');*/
+    background: url(../img/background.jpg);
     background-size: cover;
     height: 600px;
 
