@@ -126,7 +126,7 @@ return [
             'title'       => 'Song of the day',
             'link'        => 'https://knuspermagier.de/2013-sotd.html',
             'tags'        => ['NodeJS'],
-            'description' => 'Kleines Script, dass mir eine Übersicht über die meistgespielten Songs der letzten Tage erzeugt. Benutzt die Last.fm-API',
+            'description' => 'Kleines Script, das mir eine Übersicht über die meistgespielten Songs der letzten Tage erzeugt. Benutzt die Last.fm-API',
         ],
         [
             'type'        => 'small',
@@ -145,7 +145,7 @@ return [
             'title'       => 'Facesort',
             'link'        => 'https://knuspermagier.de/2013-facesort.html',
             'tags'        => ['NodeJS'],
-            'description' => 'Script, dass mit Gesichtserkennungsalgorithmen automatisierte Webcam-Aufnahmen filtert.',
+            'description' => 'Script, das mit Gesichtserkennungsalgorithmen automatisierte Webcam-Aufnahmen filtert.',
         ],
         [
             'type'        => 'small',
@@ -218,7 +218,7 @@ return [
             'title'       => 'wobleibtphilipp.de',
             'link'        => 'https://knuspermagier.de/2012-wo-bleibt-eigentlich-philipp.html',
             'tags'        => ['PHP'],
-            'description' => 'Ein Script, dass berechnet wann ich im Büro bin, basierend auf meinen Foursquare-Checkins an der Bushaltestelle und aktuellen Fahrplänen.',
+            'description' => 'Ein Script, das berechnet wann ich im Büro bin, basierend auf meinen Foursquare-Checkins an der Bushaltestelle und aktuellen Fahrplänen.',
         ],
         [
             'type'  => 'link',
